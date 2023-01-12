@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&display=swap');
+.bodyy{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.pg1{
+    height: 100vh;
+    width: 100%;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbaar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    z-index: 100;
+
+
+
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.logo1{
+    font-size: 30px;
+    color:white;
+    font-weight: bolder;
+    position: relative;
+    bottom: 15px;
+   
+
+
+}
+.logo2{
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+    position: relative;
+    bottom: 15px;
+}
+
+.logoon{
+    margin-left: 10px;
+}
+.bolt{
+    color: red;
+    position: relative;
+    bottom: 10px;
+
+}
+ul li a:hover{
+    transition-duration: .4s;
+    color: red;
+    
+
+}
+a{
+    text-decoration: none;
+}
+.faq{
+    margin: 0px 50px 0px 0px;
+    border-radius: 25px;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+}
+.faq:hover{
+    transition-duration: .4s;
+    color: red;
+}
+
+
+.picta{
+    height: 400px;
+    width: 550px;
+    background: url(./solar\ panel.jpg) no-repeat center center/cover;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 80px;
+    animation-name: anima;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1; 
+}
+@keyframes anima{
+    from{
+        transform: scaleX(0);
+    }
+    to{
+        transform: scaleX(1);
+    }
+}
+.texa{ 
+    height: 400px;
+    width: 45%;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    animation-name: animaa;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    /*padding-top: 20px;*/
+    margin-top: 80px;
+    box-sizing: border-box;
+
+}
+@keyframes animaa{
+    from{
+        transform: scaleX(0);
+
+    }
+    to{
+        transform: scaleX(1);
+
+    }
+}
+.advatise{
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(to right,rgb(253, 0, 0),rgb(255, 166, 0));
+    animation-name: animaa;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    border-radius: 50px ;
+    border: 1px transparent;
+    text-align: center;
+    padding-top: 20px;
+
+}
+@keyframes animaa{
+    from{
+        transform: scaleX(0);
+
+    }
+    to{
+        transform: scaleX(1);
+
+    }
+}
+.aaa{
+    color: white;
+    font-size: 20px;
+}
+.red{
+    color: red;
+}
+.pg2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+.box1{
+    height: 250px ;
+    width: 80%;
+    background: url(./circuits.jpg) center center/cover no-repeat;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    padding-top: 30px;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.instant{
+    border: 2px transparent;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    width: 250px;
+}
+.instant:hover{
+    transition-duration: .4s;
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
+.custom{
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    width: 250px;
+    background: transparent;
+    color: white;
+
+}
+.custom:hover{
+    transition-duration: .4s;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.box2{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(247, 245, 245);
+    border: 1px solid rgb(131, 131, 131);
+    margin: 10px;
+    border-radius: 40px;
+    text-align: center;
+    
+}
+.box2:hover{
+    transform: scale(1.05);
+    transition-duration: .4s;
+}
+.x{
+    font-size: 30px;
+    color: rgb(255, 153, 0);
+    font-weight: bolder;
+
+}
+.y{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(34, 34, 34);
+}
+.z{
+    font-size: 38px;
+}
+
+.pg3{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background:linear-gradient(rgba(255, 255, 255,0),rgba(0, 0, 0,1)) ,url(./building.jpg) no-repeat center center/cover;
+
+}
+.logo3{
+    font-size: 40px;
+    color:white;
+    font-weight: 900;
+
+
+}
+.logo4{
+    font-size: 40px;
+    color: red;
+    font-weight: 900;
+}
+.boltt{
+    color: red;
+}
+
+.alpha{
+    height: 200px ;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-right: 900px;
+    background: transparent;
+
+
+
+}
+
+.beta{
+    height:250px ;
+    width: 250px;
+    text-align: center;
+    background: transparent;
+    box-sizing: border-box;
+    padding-top: 30px;
+   
+   
+
+}
+.learn{
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 150px;
+    background: transparent;
+    color: white;
+    height: 50px;
+}
+.learn:hover{
+    transition-duration: .4s;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border: 1px solid red;
+}
+.p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(255, 94, 0);
+}
+.k{
+   font-weight: 900;
+    color: white;
+}
+.pg4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.commercial1{
+    height: 200px ;
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+    box-sizing: border-box;
+}
+.pixa{
+    height: 130px;
+    width: 50%;
+    position: relative;
+    left: 330px;
+    bottom: 30px;
+    padding-top: 20px;
+
+}
+.pp{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 0, 0);
+}
+.kk{
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+.commercial2{
+    height: 300px;
+    width: 200px;
+    border: 1px solid rgb(131, 131, 131);
+    text-align: center;
+    border-radius: 30px;
+    padding: 30px 0px 0px 0px;
+    background-color: rgb(247, 245, 245);
+    margin: 0px 50px 0px 50px;
+    
+    
+}
+.commercial2:hover{
+    transform: scale(1.05);
+    transition-duration: .4s;
+}
+.signa{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 150px;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    height: 50px;
+
+}
+.signa:hover{
+    transition-duration: .4s;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.com1{
+    color: orange;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+.pg5{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255,0),rgba(0, 0, 0,1)),url(./servicess.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(48, 47, 47);
+}
+.ending1,
+.ending2,
+.ending3{
+    height: 30vh;
+    width: 300px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 30px 30px 30px 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.fb{
+    color: blue;
+    
+
+}
+.ins{
+    color: rgba(209, 58, 58, 0.836);
+}
+.gram{
+    text-decoration: none;
+    color: white;
+
+}
