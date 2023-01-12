@@ -309,6 +309,17 @@ a{
    
 
 }
+.ceta{
+    height:250px ;
+    width: 250px;
+    text-align: center;
+    background: transparent;
+    box-sizing: border-box;
+    padding-top: 100px;
+   
+   
+
+}
 .learn{
     border: 1px solid white;
     border-radius: 25px;
