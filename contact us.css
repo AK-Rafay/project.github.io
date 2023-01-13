@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&display=swap');
-.body{
+.bodyy{
     font-family: 'Josefin Sans', sans-serif;
 }
 
 
-.navbar{
+.navbaar{ 
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     color: white;
-    height: 70px;
+    height: 80px;
     width: 100%;
     position: fixed; 
     top: 0;
-    left: 0; 
+    left: 0;
     background-color: rgb(0, 0, 0);
-    padding-top: 10px;
     z-index: 100;
 
 
 
-}
+} 
 ul li {
     list-style-type: none;
     display: inline-block;
@@ -40,24 +38,24 @@ ul li a{
     font-size: 30px;
     color:white;
     font-weight: bolder;
-    position: relative;
-    bottom: 30px;
+   
 
 
 }
 .logo2{
     font-size: 30px;
     color: red;
-    position: relative;
-    bottom: 30px;
+    font-weight: bolder;
+
 }
-.logo{
+
+.logoon{
     margin-left: 10px;
 }
 .bolt{
+    font-size:50px;
     color: red;
-    position: relative;
-    bottom: 20px;
+
 }
 ul li a:hover{
     transition-duration: .4s;
@@ -67,7 +65,6 @@ ul li a:hover{
 }
 a{
     text-decoration: none;
-    color: black;
 }
 .faq{
     margin: 0px 50px 0px 0px;
@@ -76,7 +73,7 @@ a{
     font-weight: 900;
     font-size: 20px;
     background: transparent;
-    color: white; 
+    color: white;
 }
 .faq:hover{
     transition-duration: .4s;
@@ -97,8 +94,6 @@ a{
     animation-fill-mode: forwards;
     animation-direction: normal;
     animation-iteration-count: 1;
-    padding-top: 20px;
-    margin-top: 80px;
     box-sizing: border-box;
 
 }
@@ -121,8 +116,6 @@ a{
     text-align: center;
     color: white;
     font-weight: 900;
-    padding-top: 30px;
-    padding-right: 900px;
     background: transparent;
 
 
@@ -213,4 +206,59 @@ a{
     text-decoration: underline;
     color: blue;
 
+}
+@media only screen and (max-width:1200px){
+    .navbaar{
+        height:100px ;
+    }
+    ul li{
+        padding-left: 10px;
+        padding-right: 5px;
+        font-size: 20px;
+        position: relative;
+        left: 40px;
+        
+    }
+    .faq{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 0px;
+
+    }
+    .logo1{
+        font-size: 25px;
+        margin-left: 5px;
+        
+    }
+    .logo2{
+        position: relative;
+        left: 40px;
+        top: 2px;
+        font-size: 25px;
+    }
+    .bolt{
+        font-size: 25px;
+        
+    }
+    .logoon{
+        padding-top: 10px;
+    }
+    .beta{
+        height: 150px;
+        width: 150px;
+        padding-bottom: 40px;
+        box-sizing: border-box; 
+    }
+
+    .p{
+        font-size: 20px;
+    }
+    .k{
+        font-size: 10px;
+    }
+    .learn{
+        font-size: 10px;
+        width: 70px;
+    }
+  
 }
